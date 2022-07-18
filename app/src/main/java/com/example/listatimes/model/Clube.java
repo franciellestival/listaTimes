@@ -1,17 +1,18 @@
 package com.example.listatimes.model;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Time {
+public class Clube implements Serializable {
     private int escudo;
     private String nome;
     private String local;
     private List<String> titulos;
 
-    public Time() {
+    public Clube() {
     }
 
-    public Time(int escudo, String nome, String local, List<String> titulos) {
+    public Clube(int escudo, String nome, String local, List<String> titulos) {
         this.escudo = escudo;
         this.nome = nome;
         this.local = local;

@@ -10,27 +10,27 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.listatimes.R;
-import com.example.listatimes.model.Time;
+import com.example.listatimes.model.Clube;
 
 import java.util.List;
 
-public class AdapterTimes extends RecyclerView.Adapter<AdapterTimes.MyViewHolder> {
-    private List<Time> listaTimes;
+public class AdapterClubes extends RecyclerView.Adapter<AdapterClubes.MyViewHolder> {
+    private List<Clube> listaClubes;
 
-    public AdapterTimes(List<Time> listaTimes) {
-        this.listaTimes = listaTimes;
+    public AdapterClubes(List<Clube> listaClubes) {
+        this.listaClubes = listaClubes;
     }
 
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View listItem = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_lista_times, parent, false);
+        View listItem = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_lista_clubes, parent, false);
         return new MyViewHolder(listItem);
     }
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        Time obj = listaTimes.get(position);
+        Clube obj = listaClubes.get(position);
         holder.nome.setText(obj.getNome());
         holder.local.setText(obj.getLocal());
         holder.escudo.setImageResource(obj.getEscudo());
@@ -38,7 +38,7 @@ public class AdapterTimes extends RecyclerView.Adapter<AdapterTimes.MyViewHolder
 
     @Override
     public int getItemCount() {
-        return listaTimes.size();
+        return listaClubes.size();
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
