@@ -10,7 +10,7 @@ Aplicação Android desenvolvida para a disciplina DS151 - Desenvolvimento Para 
 
 ![image](https://user-images.githubusercontent.com/66281304/178609096-2dcca0e1-d6d7-422a-8400-4f449d7f0304.png)
 
-* Ao clicarno time, o aplicativo va ipara a tela de detalhes, que deveconter:
+* Ao clicar no time, o aplicativo vai para a tela de detalhes, que deve conter:
   * Nome do time 
   * Imagemdo emblema (em tamanho maior)
   * Cidade e estado
