@@ -51,13 +51,11 @@ public class MainActivity extends AppCompatActivity {
                                 Clube obj = listaClubes.get(position);
                                 it.putExtra("clube", obj);
                                 startActivity(it);
-//                                Toast.makeText(getApplicationContext(), "Selecionado " + obj.getNome(), Toast.LENGTH_SHORT).show();
                             }
 
                             @Override
                             public void onLongItemClick(View view, int position) {
-                                Clube obj = listaClubes.get(position);
-                                Toast.makeText(getApplicationContext(), "Clique longo em " + obj.getNome(), Toast.LENGTH_SHORT).show();
+                                onItemClick(view, position);
                             }
 
                             @Override
