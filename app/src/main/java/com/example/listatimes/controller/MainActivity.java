@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 "1 Campeonato Brasileiro - Série B (2008)",
                 "30 Campeonatos Paulistas (1914, 1916, 1922, 1923, 1924, 1928, 1929, 1930, 1937, 1938, 1939, 1941, 1951, 1952, 1954, 1977, 1979, 1982, 1983, 1988, 1995, 1997, 1999, 2001, 2003, 2009, 2013, 2017, 2018, 2019)"));
 
-        Clube obj = new Clube(R.drawable.corinthians, "Corinthians", "São Paulo/SP", titulos);
+        Clube obj = new Clube(R.drawable.corinthians, "Sport Clube Corinthians Paulista", "São Paulo/SP", titulos);
         listaClubes.add(obj);
 
         titulos = new ArrayList<>(Arrays.asList("1 Mundial de Clubes da FIFA (2006)",
@@ -88,13 +88,13 @@ public class MainActivity extends AppCompatActivity {
                 "2 Recopa Sul-Americana (2007, 2011)",
                 "1 Copa Sul-Americana (2008)",
                 "40 Campeonatos Gaúchos (1927, 1934, 1940, 1941, 1942, 1943, 1944, 1945, 1947, 1948, 1950, 1951, 1952, 1953, 1955, 1961, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1978, 1981, 1982, 1983, 1984, 1991, 1992, 1994, 1997, 2003, 2004, 2005, 2008, 2009, 2011)"));
-        obj = new Clube(R.drawable.internacional, "Internacional", "Porto Alegre/RS", titulos);
+        obj = new Clube(R.drawable.internacional, "Sport Club Internacional", "Porto Alegre/RS", titulos);
         listaClubes.add(obj);
 
         titulos = new ArrayList<>(Arrays.asList("1 Campeonato Brasileiro (1985)",
                 "2 Campeonatos Brasileiros - Série B (2007, 2010)",
                 "39 Campeonatos Paranaenses (1916, 1927, 1931, 1933, 1935, 1939, 1941, 1942, 1946, 1947, 1951, 1952, 1954, 1956, 1957, 1959, 1960, 1968, 1969, 1971, 1972, 1973, 1974, 1975, 1976, 1978, 1979, 1986, 1989, 1999, 2003, 2004, 2008, 2010, 2011, 2012, 2013, 2017, 2022)"));
-        obj = new Clube(R.drawable.coritiba, "Coritiba", "Curitiba/PR", titulos);
+        obj = new Clube(R.drawable.coritiba, "Coritiba Foot Ball Club", "Curitiba/PR", titulos);
         listaClubes.add(obj);
 
         titulos = new ArrayList<>(Arrays.asList("1 Levain Cup/CONMEBOL (2019)",
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                 "1 Campeonato Brasileiro - Série B (1995)",
                 "26 Campeonatos Paranaenses (1925, 1929, 1930, 1934, 1936, 1940, 1943, 1945, 1949, 1958, 1970, 1982, 1983, 1985, 1988, 1990, 1998, 2000, 2001, 2002, 2005, 2009, 2016, 2018, 2019 e 2020)"));
 
-        obj = new Clube(R.drawable.athletico, "Athlético Paranaense", "Curitiba/PR", titulos);
+        obj = new Clube(R.drawable.athletico, "Club Athletico Paranaense", "Curitiba/PR", titulos);
         listaClubes.add(obj);
     }
 }

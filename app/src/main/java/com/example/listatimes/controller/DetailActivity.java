@@ -1,12 +1,15 @@
 package com.example.listatimes.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.example.listatimes.R;
 import com.example.listatimes.model.Clube;
 
@@ -30,5 +33,9 @@ public class DetailActivity extends AppCompatActivity {
         titulosClube.setText(String.join("\n", obj.getTitulos()));
         titulosClube.setMovementMethod(new ScrollingMovementMethod());
         escudoClube.setImageResource(obj.getEscudo());
+//        escudoClube.setContentDescription(getResources().getString(R.string.));
+        escudoClube.setAdjustViewBounds(true);
+//        escudoClube.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+
     }
 }

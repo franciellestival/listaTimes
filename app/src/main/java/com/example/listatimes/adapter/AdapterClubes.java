@@ -34,6 +34,7 @@ public class AdapterClubes extends RecyclerView.Adapter<AdapterClubes.MyViewHold
         holder.nome.setText(obj.getNome());
         holder.local.setText(obj.getLocal());
         holder.escudo.setImageResource(obj.getEscudo());
+        holder.escudo.setAdjustViewBounds(true);
     }
 
     @Override

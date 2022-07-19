@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".controller.DetailActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -15,9 +16,11 @@
 
     <ImageView
         android:id="@+id/imageViewDtEscudo"
-        android:layout_width="354dp"
-        android:layout_height="142dp"
+        android:layout_width="360dp"
+        android:layout_height="166dp"
         android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
