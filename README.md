@@ -26,7 +26,8 @@ Aplicação Android desenvolvida para a disciplina DS151 - Desenvolvimento Para 
 * **Luis Augusto Ferraz de Souza**
 
 ## 📄 Exemplo
-
+|![Tela1](https://user-images.githubusercontent.com/22084121/179643233-b0f11e28-a71c-44ad-89f9-a3baa062cae8.png)|![Tela2](https://user-images.githubusercontent.com/22084121/179643258-b1b5d1fe-75ff-4553-b830-f2231d85459c.png)|![Tela2-2](https://user-images.githubusercontent.com/22084121/179643282-9702ea80-68ac-4e10-8554-26306dafbb12.png)|
+|:-:|:-:|:-:|
 
 ---
 ⌨️ com ❤️ por Fran e Lulis 😊
